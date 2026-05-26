@@ -1,0 +1,31 @@
+[workspace]
+authors = ["segallagher <segallagher@alaska.edu>"]
+channels = ["conda-forge", "nodefaults"]
+name = "earthscope_dolphin_env"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.12.*"
+pip = "*"
+ipykernel = "*"
+dolphin = ">=0.42.0"
+rioxarray = "*"
+opera-utils = ">=0.24"
+matplotlib = "*"
+ultraplot = "*"
+bqplot = "*"
+cmap = "*"
+titiler-core = "*"
+pydantic-settings = "*"
+boto3 = "*"
+uvicorn = "*"
+ipympl = "*"
+ipyleaflet = "*"
+ipywidgets = "*"
+
+[pypi-dependencies]
+bowser-insar = "*"
+synth-insar = "*"

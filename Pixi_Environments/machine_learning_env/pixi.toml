@@ -1,0 +1,29 @@
+[workspace]
+authors = ["segallagher <segallagher@alaska.edu>"]
+channels = ["conda-forge"]
+name = "machine_learning"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+asf_search = "*"
+gdal = "*"
+hyp3_sdk = "*"
+ipyfilechooser = "*"
+ipympl = "*"
+ipykernel = "*"
+matplotlib = "*"
+mgrs = "*"
+numpy = "*"
+opensarlab_lib = "*"
+pandas = "*"
+pip = "*"
+pyproj = "*"
+scipy = "*"
+tensorflow = "*"
+keras = "*"
+
+[pypi-dependencies]
+url-widget = "*"

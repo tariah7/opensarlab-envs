@@ -1,0 +1,40 @@
+[workspace]
+authors = ["segallagher <segallagher@alaska.edu>"]
+channels = ["conda-forge"]
+name = "ARIA-tools"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+affine = "*"
+aria-tools = "==1.2"
+arm_pyart = "*"
+asf_search = "*"
+dask = "*"
+dem_stitcher = ">=2.5.8"
+gdal = ">=3.7.0"
+h5py = "*"
+ipykernel = "*"
+joblib = "*"
+matplotlib = "*"
+netcdf4 = "*"
+numpy = "*"
+pandas = "*"
+parallel = "*"
+pip = "*"
+pyproj = "*"
+pytest = "*"
+python = ">=3.8"
+python-dateutil = "*"
+rasterio = "*"
+rioxarray = "*"
+requests = "*"
+scipy = ">1.10.0"
+shapely = "*"
+tile_mate = "*"
+xarray = "*"
+
+[activation]
+env = { GDAL_HTTP_COOKIEJAR = "/tmp/cookies.txt", VSI_CACHE = "YES", GDAL_HTTP_COOKIEFILE = "/tmp/cookies.txt" }
