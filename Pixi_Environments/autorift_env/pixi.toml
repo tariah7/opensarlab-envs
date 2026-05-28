@@ -1,0 +1,23 @@
+[workspace]
+authors = ["segallagher <segallagher@alaska.edu>"]
+channels = ["conda-forge"]
+name = "autorift"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+autorift = ">=1.5.0"
+gdal = ">=3"
+ipykernel = "*"
+ipympl = "*"
+ipywidgets = "*"
+matplotlib = "*"
+numpy = "<1.24.0"
+opencv = "*"
+pandas = "*"
+pip = "*"
+
+[pypi-dependencies]
+url-widget = "*"

@@ -1,0 +1,25 @@
+[workspace]
+authors = ["segallagher <segallagher@alaska.edu>"]
+channels = ["conda-forge", "pyrocko"]
+name = "isce2_insar"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.11.*"
+aria-tools = "*"
+boto3 = "*"
+ipykernel = "*"
+ipympl = "*"
+isce2 = "*"
+gdal = "*"
+pip = "*"
+pyrocko = "*"
+numpy = ">=1.24.0"
+
+[tool.pixi.pypi-dependencies]
+url-widget = "*"
+okada-wrapper = "==18.12.7.3"
+kite = "*"
