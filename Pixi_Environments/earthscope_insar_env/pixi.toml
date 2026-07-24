@@ -3,7 +3,7 @@ authors = ["segallagher <segallagher@alaska.edu>"]
 channels = ["conda-forge", "pyrocko"]
 name = "earthscope_insar"
 platforms = ["linux-64"]
-version = "0.1.0"
+version = "0.1.1"
 
 [tasks]
 
@@ -28,6 +28,9 @@ rioxarray = "*"
 rasterio = "*"
 sentineleof = "*"
 numpy = ">=1.24.0"
+compass = "*"
+isce3 = "*"
+snaphu = "*"
 
 [tool.pixi.pypi-dependencies]
 url-widget = "*"
