@@ -19,6 +19,7 @@ dependencies:
   - boto3
   - uvicorn
   - ipympl
+  - jupyter
   - ipyleaflet
   - ipywidgets
   - pip:
