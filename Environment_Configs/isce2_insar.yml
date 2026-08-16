@@ -9,6 +9,7 @@ dependencies:
   - ipympl
   - isce2
   - gdal
+  - jupyter
   - pip
   - pyrocko
   - pip:
