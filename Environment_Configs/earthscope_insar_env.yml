@@ -16,6 +16,7 @@ dependencies:
   - libgdal-hdf5
   - libgdal-netcdf
   - mintpy
+  - jupyter
   - netcdf4
   - pip
   - pv
