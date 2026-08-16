@@ -17,6 +17,7 @@ dependencies:
   - pyarrow
   - pycrs
   - pyproj
+  - jupyter
   - rasterio
   - rioxarray
   - s3fs
